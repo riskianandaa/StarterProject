@@ -1,4 +1,4 @@
-package com.nama.app;
+package com.starterproject;
 
 import com.facebook.react.bridge.JSIModulePackage;
 import com.swmansion.reanimated.ReanimatedJSIModulePackage;
