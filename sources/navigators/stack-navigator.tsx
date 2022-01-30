@@ -6,6 +6,7 @@ import { NavigatorParameters } from '@models/navigators'
 
 import Home from '@screens/home'
 import PickImage from '@screens/pick-image'
+import Login from '@screens/login'
 
 const Stack = createStackNavigator<NavigatorParameters>()
 
@@ -17,6 +18,14 @@ function StackNavigator() {
         gestureEnabled: true // default true for ios, false for android
       }}
     >
+      <Stack.Screen
+        name="Login"
+        component={Login}
+        options={{
+          headerShown: false
+        }}
+      />
+
       <Stack.Screen
         name = "Home"
         component = {Home}
