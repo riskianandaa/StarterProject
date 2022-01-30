@@ -3,7 +3,7 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/>
 </p>
 
-# Starter
+# StarterProject
 
 
 ## Environment
@@ -14,7 +14,7 @@ Lihat [Environment Used](./ENVIRONMENT_USED.md).
 
 Buka terminal / cmd, masuk ke folder yang ingin Anda tuju, lalu jalan kan
 
-```bash <(curl -s https://raw.githubusercontent.com/nald-dev/react_native_starter/master/support-files/installation.sh) NamaApp com.nama.app https://github.com/ACCOUNT/REPO.git```
+```bash <(curl -s https://raw.githubusercontent.com/ACCOUNT/REPO/master/support-files/installation.sh) NamaApp com.nama.app https://github.com/ACCOUNT/REPO.git```
 
 ## Running
 
