@@ -63,4 +63,4 @@ Buka terminal / cmd arahkan posisi folder ke folder project lalu jalankan ```npm
 
 #### Build iOS
 
-Buka terminal / cmd arahkan posisi folder ke folder project lalu jalankan ```npm run bundle-ios```, kemudian build / archive melalui aplikasi XCode (XCode hanya tersedia bagi pengguna MacOS).
+Buka terminal / cmd arahkan posisi folder ke folder project lalu jalankan ```npm run bundle-ios```, kemudian build / archive melalui aplikasi XCode (XCode hanya tersedia bagi pengguna MacOS).# StarterProject
