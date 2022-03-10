@@ -1,13 +1,12 @@
-
 import React, { useEffect } from 'react'
-import { SafeAreaView, Text, TouchableOpacity, View } from 'react-native'
+import { SafeAreaView, Text, TouchableOpacity, View, StatusBar } from 'react-native'
 
 import messaging from '@react-native-firebase/messaging'
 
 import { StackScreenPropsType } from '@models/navigators'
 
-import { executeNotificationData } from '@references/functions/notification-actions'
-import { Sentence } from '@references/constants/sentence'
+import { executeNotificationData } from '../references/functions/notification-actions'
+import { Sentence } from '../references/constants/sentence'
 
 function Home({ navigation, route }: StackScreenPropsType<'Home'>) {
   useEffect(() => {
@@ -89,7 +88,37 @@ function Home({ navigation, route }: StackScreenPropsType<'Home'>) {
               fontWeight: '500'
             }}
           >
-            Go To Pick Image Screen
+            Login Screen
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.8}
+          onPress = {() => navigation.navigate('TabBottom')}
+          style={{
+            backgroundColor: 'dodgerblue',
+            borderRadius: 8,
+            elevation: 4,
+            marginHorizontal: 20,
+            marginTop: 20,
+            paddingHorizontal: 16,
+            paddingVertical: 8,
+            shadowColor: 'dimgray',
+            shadowOffset: {
+              height: 2,
+              width: 0
+            },
+            shadowOpacity: 0.3,
+            shadowRadius: 4
+          }}
+        >
+          <Text
+            style={{
+              color: 'white',
+              fontSize: 20,
+              fontWeight: '500'
+            }}
+          >
+            Login Screen
           </Text>
         </TouchableOpacity>
       </View>
@@ -106,5 +135,4 @@ function Home({ navigation, route }: StackScreenPropsType<'Home'>) {
     </SafeAreaView>
   )
 }
-
 export default Home
